@@ -1,0 +1,25 @@
+# Archivos de VS
+.vs/
+*.user
+*.suo
+
+# Salidas de compilación
+bin/
+obj/
+
+# Logs, paquetes y otros
+*.log
+*.nupkg
+*.dbmdl
+*.jfm
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Archivos de Rider o VS Code (si usas)
+.idea/
+.vscode/
