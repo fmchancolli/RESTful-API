@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\BancoCursoRESTful\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\aplication\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|solutionrelative:aplication\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0287A14A-1FF9-4FB1-864D-4C04AB098CD3}|WebAPI\\WebAPI.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0287A14A-1FF9-4FB1-864D-4C04AB098CD3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0287A14A-1FF9-4FB1-864D-4C04AB098CD3}|WebAPI\\WebAPI.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0287A14A-1FF9-4FB1-864D-4C04AB098CD3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -38,6 +47,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebAPI",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-07T19:37:01.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Aplication\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\ServiceExtensions.cs",
+              "RelativeToolTip": "Aplication\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:04:02.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:18:13.679Z"
             }
           ]
         }

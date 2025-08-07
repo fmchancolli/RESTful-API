@@ -10,7 +10,6 @@
         "tags": [
           "WebAPI"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
             "description": "Success",
