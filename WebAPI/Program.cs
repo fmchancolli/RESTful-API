@@ -1,4 +1,7 @@
 using Aplication;
+using Persistence;
+using Shared;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAplicationLayer();
+builder.Services.AddPersistenceInfraestructure(builder.Configuration);
+builder.Services.AddSharedInfraestructure(builder.Configuration);
 
 var app = builder.Build();
 
