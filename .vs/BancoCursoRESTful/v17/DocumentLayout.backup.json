@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{789F1288-01DA-4084-B28B-0528B1AB0620}|Persistence\\Persistence.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\persistence\\repository\\myrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789F1288-01DA-4084-B28B-0528B1AB0620}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repository\\myrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{789F1288-01DA-4084-B28B-0528B1AB0620}|Persistence\\Persistence.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{789F1288-01DA-4084-B28B-0528B1AB0620}|Persistence\\Persistence.csproj|solutionrelative:persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\aplication\\interfaces\\idatetimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|solutionrelative:aplication\\interfaces\\idatetimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\aplication\\interfaces\\irepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|solutionrelative:aplication\\interfaces\\irepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\aplication\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|solutionrelative:aplication\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{789F1288-01DA-4084-B28B-0528B1AB0620}|Persistence\\Persistence.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{789F1288-01DA-4084-B28B-0528B1AB0620}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\aplication\\interfaces\\idatetimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA04CFF6-D2CA-408C-ABBB-33DBA74618A5}|Aplication\\Application.csproj|solutionrelative:aplication\\interfaces\\idatetimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0287A14A-1FF9-4FB1-864D-4C04AB098CD3}|WebAPI\\WebAPI.csproj|c:\\users\\user\\documents\\personal\\cursos\\aprendizaje\\apirestful\\restful-api\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +70,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MyRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Persistence\\Repository\\MyRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repository\\MyRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Persistence\\Repository\\MyRepositoryAsync.cs",
+              "RelativeToolTip": "Persistence\\Repository\\MyRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:33:16.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Interfaces\\IRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Aplication\\Interfaces\\IRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Interfaces\\IRepositoryAsync.cs",
+              "RelativeToolTip": "Aplication\\Interfaces\\IRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:22:55.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Application",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Application.csproj",
+              "RelativeDocumentMoniker": "Aplication\\Application.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Application.csproj",
+              "RelativeToolTip": "Aplication\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-07T22:14:29.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IDateTimeService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Interfaces\\IDateTimeService.cs",
               "RelativeDocumentMoniker": "Aplication\\Interfaces\\IDateTimeService.cs",
@@ -75,20 +126,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Persistence\\Contexts\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "Persistence\\Contexts\\ApplicationDBContext.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Persistence\\Contexts\\ApplicationDBContext.cs",
               "RelativeToolTip": "Persistence\\Contexts\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T21:54:25.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Persistence",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Persistence\\Persistence.csproj",
               "RelativeDocumentMoniker": "Persistence\\Persistence.csproj",
@@ -101,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Wrappers\\Response.cs",
               "RelativeDocumentMoniker": "Aplication\\Wrappers\\Response.cs",
@@ -114,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CreateClienteCommand.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Features\\Clientes\\Commands\\CreateClienteCommand\\CreateClienteCommand.cs",
               "RelativeDocumentMoniker": "Aplication\\Features\\Clientes\\Commands\\CreateClienteCommand\\CreateClienteCommand.cs",
@@ -127,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Domain\\Entities\\Cliente.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Cliente.cs",
@@ -140,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AuditableBaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Domain\\Common\\AuditableBaseEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Common\\AuditableBaseEntity.cs",
@@ -177,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ValidationException.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Exceptions\\ValidationException.cs",
               "RelativeDocumentMoniker": "Aplication\\Exceptions\\ValidationException.cs",
@@ -190,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ValidationBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\Behaviours\\ValidationBehaviour.cs",
               "RelativeDocumentMoniker": "Aplication\\Behaviours\\ValidationBehaviour.cs",
@@ -203,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "WebAPI",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\WebAPI\\WebAPI.csproj",
               "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
@@ -216,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Aplication\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "Aplication\\ServiceExtensions.cs",
@@ -229,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
