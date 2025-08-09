@@ -1,25 +1,18 @@
-# Archivos de VS
+# Archivos de Visual Studio
 .vs/
 *.user
 *.suo
 
-# Salidas de compilación
+# Carpetas de compilación
 bin/
 obj/
 
-# Logs, paquetes y otros
+# Archivos generados
+*.dll
+*.exe
+*.pdb
+*.cache
 *.log
-*.nupkg
-*.dbmdl
-*.jfm
 
-# Archivos temporales
-*.tmp
-*.bak
-*.swp
-*.DS_Store
-Thumbs.db
-
-# Archivos de Rider o VS Code (si usas)
-.idea/
-.vscode/
+# Configuraciones locales
+appsettings.Development.json

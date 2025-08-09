@@ -1,6 +1,7 @@
 using Aplication;
 using Persistence;
 using Shared;
+using WebAPI.Extensions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +24,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//registramos 
+app.UseErrorHandlingMiddleware();
 
 var summaries = new[]
 {
