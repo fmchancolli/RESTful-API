@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using Application.Behaviours;
+using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
@@ -16,6 +17,8 @@ namespace Aplication
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             //servicios de MediatR
             services.AddMediatR(Assembly.GetExecutingAssembly());
+            //registramos el validator del pipeline
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
 
         }
     }

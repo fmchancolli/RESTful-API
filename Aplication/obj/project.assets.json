@@ -412,6 +412,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -1023,6 +1033,11 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1031,6 +1046,7 @@
       "Ardalis.Specification.EntityFrameworkCore >= 6.0.0",
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "Domain >= 1.0.0",
       "FluentValidation >= 10.1.0",
       "FluentValidation.DependencyInjectionExtensions >= 10.1.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0"
@@ -1067,7 +1083,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\USER\\Documents\\Personal\\Cursos\\Aprendizaje\\ApiRESTful\\RESTful-API\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

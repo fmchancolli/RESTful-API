@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Clientes.Commands.CreateClienteCommand
 {
+    //reglas de validacion
     public class CreateClienteCommandValidator:AbstractValidator<CreateClienteCommand>
     {
         public CreateClienteCommandValidator()

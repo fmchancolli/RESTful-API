@@ -457,6 +457,7 @@
           "Ardalis.Specification.EntityFrameworkCore": "6.0.0",
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
+          "Domain": "1.0.0",
           "FluentValidation": "10.1.0",
           "FluentValidation.DependencyInjectionExtensions": "10.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
@@ -466,6 +467,16 @@
         },
         "runtime": {
           "bin/placeholder/Application.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
         }
       }
     }
@@ -1121,6 +1132,11 @@
       "type": "project",
       "path": "../Aplication/Application.csproj",
       "msbuildProject": "../Aplication/Application.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

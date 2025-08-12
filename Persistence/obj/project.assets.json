@@ -906,6 +906,7 @@
           "Ardalis.Specification.EntityFrameworkCore": "6.0.0",
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
+          "Domain": "1.0.0",
           "FluentValidation": "10.1.0",
           "FluentValidation.DependencyInjectionExtensions": "10.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"

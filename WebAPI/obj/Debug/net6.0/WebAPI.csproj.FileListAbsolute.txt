@@ -128,3 +128,4 @@ C:\Users\USER\Documents\Personal\Cursos\Aprendizaje\ApiRESTful\RESTful-API\WebAP
 C:\Users\USER\Documents\Personal\Cursos\Aprendizaje\ApiRESTful\RESTful-API\WebAPI\bin\Debug\net6.0\Persistence.pdb
 C:\Users\USER\Documents\Personal\Cursos\Aprendizaje\ApiRESTful\RESTful-API\WebAPI\bin\Debug\net6.0\Shared.pdb
 C:\Users\USER\Documents\Personal\Cursos\Aprendizaje\ApiRESTful\RESTful-API\WebAPI\bin\Debug\net6.0\Domain.pdb
+C:\Users\USER\Documents\Personal\Cursos\Aprendizaje\ApiRESTful\RESTful-API\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll

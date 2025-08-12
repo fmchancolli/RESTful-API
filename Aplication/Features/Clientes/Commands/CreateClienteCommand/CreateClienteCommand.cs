@@ -1,4 +1,7 @@
-﻿using Application.Wrappers;
+﻿using Application.Interfaces;
+using Application.Wrappers;
+using AutoMapper;
+using Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -23,11 +26,23 @@ namespace Application.Features.Clientes.Commands.CreateClienteCommand
     // en int es el id a insertar
     public class CreateClienteCommandHandler : IRequestHandler<CreateClienteCommand, Response<int>>
     {
+        private readonly IRepositoryAsync<Cliente> _repositoryAsync;
+        private readonly IMapper _mapper;
+
+        public CreateClienteCommandHandler(IRepositoryAsync<Cliente> repositoryAsync, IMapper mapper)
+        {
+            _repositoryAsync = repositoryAsync;
+            _mapper = mapper;
+        }
+
+
         public async Task<Response<int>> Handle(CreateClienteCommand request, CancellationToken cancellationToken)
         {
+            //mapeama a cleinte lo que venga en request
+            var nuevoRegistro = _mapper.Map<Cliente>(request);
+            var data= await _repositoryAsync.AddAsync(nuevoRegistro);
 
-
-            throw new NotImplementedException();
+            return new Response<int> ( data.Id );
         }
     }
 }

@@ -2,6 +2,8 @@
 using MediatR;
 
 namespace Application.Behaviours
+    //Pipeline
+    //Esto se ejecuta mucho antes que el mediator redirija el comando
 {
     //entra un request--- sale un response
     public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
@@ -15,6 +17,7 @@ namespace Application.Behaviours
             _validators = validators;
         }
 
+        //se ejectua antes del mediator
         public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
         {
             if (_validators.Any())

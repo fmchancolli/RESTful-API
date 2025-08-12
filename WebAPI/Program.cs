@@ -13,6 +13,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAplicationLayer();
 builder.Services.AddPersistenceInfraestructure(builder.Configuration);
 builder.Services.AddSharedInfraestructure(builder.Configuration);
+builder.Services.AddControllers();//agregamos controladores
+builder.Services.AddApiVersioningExtensions();
 
 var app = builder.Build();
 
@@ -26,6 +28,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 //registramos 
 app.UseErrorHandlingMiddleware();
+// Este es el paso clave para que funcionen los controladores
+app.MapControllers();
 
 var summaries = new[]
 {
