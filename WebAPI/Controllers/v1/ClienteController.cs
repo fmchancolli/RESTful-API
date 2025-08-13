@@ -1,6 +1,7 @@
 ﻿using Application.Features.Clientes.Commands.CreateClienteCommand;
 using Application.Features.Clientes.Commands.DeleteClienteCommand;
 using Application.Features.Clientes.Commands.UpdateClienteCommand;
+using Application.Features.Clientes.Queries.GetAllClientes;
 using Application.Features.Clientes.Queries.GetClienteById;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,20 @@ namespace WebAPI.Controllers.v1
         //enrrutar no tener  logica
         //la logica esta en el core
         //cuando se ejecute el send se ira en el handler
+
+        //Get API/<Controller>
+        [HttpGet()]
+        public async Task<IActionResult> Get([FromQuery] GetAllClientesParameters filter)
+        {
+            return Ok(await Mediator.Send(new GetAllClientesQuery 
+            { 
+                PageNumber = filter.PageNumber,
+                PageSize= filter.PageSize,
+                Nombre = filter.Nombre,
+                Apellido = filter.Apellido,
+            }));
+        }
+
         //POS Api/<controller>
         [HttpPost]
         public async Task<IActionResult> Post(CreateClienteCommand command)
