@@ -40,9 +40,20 @@ namespace Application.Features.Clientes.Commands.CreateClienteCommand
         {
             //mapeama a cleinte lo que venga en request
             var nuevoRegistro = _mapper.Map<Cliente>(request);
+            nuevoRegistro.Edad = CalcularEdad(nuevoRegistro.FechaNacimiento);
             var data= await _repositoryAsync.AddAsync(nuevoRegistro);
 
             return new Response<int> ( data.Id );
+        }
+
+
+        private int CalcularEdad(DateTime fechaNacimiento)
+        {
+            var hoy = DateTime.Today;
+            int edad = hoy.Year - fechaNacimiento.Year;
+            if (fechaNacimiento.Date > hoy.AddYears(-edad))
+                edad--;
+            return edad;
         }
     }
 }
