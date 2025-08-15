@@ -14,7 +14,8 @@ namespace Application.Specifications
         {
             //calcular el skip
             //obtenemos datos segmentados por las paginas que le proporciones
-            Query.Skip((pageNumber - 1) * pageSize)
+            Query.OrderBy(c=>c.Id)
+                .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize);
 
             if (!string.IsNullOrEmpty(nombre))
@@ -22,6 +23,8 @@ namespace Application.Specifications
 
             if (!string.IsNullOrEmpty(apellido))
                 Query.Search(x => x.Apellido, $"%{apellido}%");
+
+            
         }
     }
 }
